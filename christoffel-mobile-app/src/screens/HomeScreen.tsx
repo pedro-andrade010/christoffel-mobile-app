@@ -13,7 +13,11 @@ export default function HomeScreen({ itemCount, onNavigate }: HomeScreenProps) {
   const dishWord = itemCount === 1 ? 'dish' : 'dishes';
 
   return (
-    <ScreenLayout title="CHRISTOFFEL'S MENU" subtitle="RESTAURANT MANAGEMENT">
+    <ScreenLayout
+  title="CHRISTOFFEL'S MENU"
+  subtitle="RESTAURANT MANAGEMENT"
+  showLogo
+>
       <Text style={styles.welcome}>Welcome, Chef!</Text>
       <Text style={styles.title}>Manage Your Menu</Text>
       <Text style={styles.description}>

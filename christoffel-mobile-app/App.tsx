@@ -152,7 +152,7 @@ export default function App() {
 
   return (
     <SafeAreaView style={styles.container}>
-      <StatusBar backgroundColor={colors.primary} barStyle="light-content" />
+      <StatusBar barStyle="light-content" />
       {renderScreen()}
     </SafeAreaView>
   );

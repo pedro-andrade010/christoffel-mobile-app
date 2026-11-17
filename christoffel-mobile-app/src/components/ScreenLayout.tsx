@@ -11,6 +11,7 @@ import { colors, spacing } from '../theme';
 type ScreenLayoutProps = {
   title: string;
   subtitle?: string;
+  showLogo?: boolean;
   children: ReactNode;
 };
 
@@ -18,6 +19,7 @@ type ScreenLayoutProps = {
 export default function ScreenLayout({
   title,
   subtitle,
+  showLogo,
   children,
 }: ScreenLayoutProps) {
   return (
@@ -25,7 +27,7 @@ export default function ScreenLayout({
       style={styles.container}
       behavior={Platform.OS === 'ios' ? 'padding' : undefined}
     >
-      <Header title={title} subtitle={subtitle} />
+      <Header title={title} subtitle={subtitle} showLogo={showLogo} />
       <ScrollView
         contentContainerStyle={styles.content}
         keyboardShouldPersistTaps="handled"
