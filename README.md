@@ -9,8 +9,8 @@ A React Native (Expo + TypeScript) mobile app that helps the chef of a local res
 | **Module** | Mobile App Scripting (MAST5112) |
 | **Submission** | Final PoE (Part 3) |
 
-- **GitHub repository:** _add your link here_
-- **Video demonstration (YouTube, Unlisted):** _add your link here_
+- **GitHub repository:** https://github.com/pedro-andrade010/christoffel-mobile-app.git
+- **Video demonstration (YouTube, Unlisted):** https://youtu.be/5_E0XPhrPLk?si=N20le1UUfrtKDEng
 
 ---
 

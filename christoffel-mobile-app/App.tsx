@@ -24,7 +24,7 @@ export default function App() {
   // The item opened on the details / edit screens
   const [selectedItemId, setSelectedItemId] = useState<number | null>(null);
 
-  // Search and filter (kept here so they are not lost when opening an item)
+  // Search and filter 
   const [searchText, setSearchText] = useState('');
   const [courseFilter, setCourseFilter] = useState<CourseFilter>('All');
 
